@@ -2,7 +2,7 @@
 
 ## Programa que fiz para aprender Elixir
 
-Ler lista de números, substituir os múltiplos de 3 por Fizz, os de 5 por Buzz e os de 15 por FizzBuzz
+Ler lista de números, substituir os múltiplos de 3 por Fizz, os de 5 por Buzz e os de 3 e 5 por FizzBuzz
 
 **:green_book: TODO:**
  - [x] Ler arquivo
