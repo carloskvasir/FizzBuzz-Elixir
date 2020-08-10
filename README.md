@@ -1,21 +1,13 @@
 # FizzBuzz
 
-**TODO: Add description**
+## Programa que fiz para aprender Elixir
 
-## Installation
+Ler lista de números, substituir os múltiplos de 3 por Fizz, os de 5 por Buzz e os de 15 por FizzBuzz
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
+**TODO:**
+ - [ ] Ler arquivo
+ - [ ] Trocar múltiplos de 3 e 5 (15) por FizzBuzz
+ - [ ] Trocar múltiplos 3 por Fizz
+ - [ ] Trocar múltiplos 5 por Buzz
 
-```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/fizz_buzz](https://hexdocs.pm/fizz_buzz).
-
+Feito por Carlos Lima (Kvasir)
