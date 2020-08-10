@@ -6,7 +6,9 @@ defmodule FizzBuzz do
   trocar todos multiplos de 3 e 5 por 'FizzBuzz'
   """
   def build(file_name) do
-    {:ok, file} = File.read(file_name)
-    file
+    case File.read(file_name) do
+      {:ok, result} -> result
+      {:error, reason} -> reason
+    end
   end
 end
