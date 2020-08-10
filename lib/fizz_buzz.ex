@@ -17,7 +17,7 @@ defmodule FizzBuzz do
     |> Enum.map(&convert_and_evaluate_numbers/1)
   end
 
-  defp handle_file_read({:error, reason}), do: "Error reading the file: #{reason}"
+  defp handle_file_read({:error, reason}), do: {:error, "Error reading the file: #{reason}"}
 
   defp convert_and_evaluate_numbers(elem) do
     elem
