@@ -12,9 +12,12 @@ defmodule FizzBuzz do
   end
 
   defp handle_file_read({:ok, result}) do
-    result
-    |> String.split(",")
-    |> Enum.map(&convert_and_evaluate_numbers/1)
+    result =
+      result
+      |> String.split(",")
+      |> Enum.map(&convert_and_evaluate_numbers/1)
+
+    {:ok, result}
   end
 
   defp handle_file_read({:error, reason}), do: {:error, "Error reading the file: #{reason}"}
