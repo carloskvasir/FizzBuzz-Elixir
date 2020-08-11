@@ -1,6 +1,7 @@
 name: Elixir Test
 
-on: [push]
+on: [push, pull_request]
+  paths: ['**.exs', '**.ex']
 
 jobs:
   run_tests:
