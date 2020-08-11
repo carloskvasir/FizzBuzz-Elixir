@@ -3,7 +3,7 @@ defmodule FizzBuzz do
   Ler lista em arquivo,
   trocar multiplos de 3 por 'Fizz'
   torcar multiplos de 5 por 'Buzz'
-  trocar todos multiplos de 3 e 5 por 'FizzBuzz'
+  trocar todos multiplos de 3 e 5 (15) por 'FizzBuzz'
   """
   def build(file_name) do
     file_name
