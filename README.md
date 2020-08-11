@@ -1,4 +1,5 @@
 # FizzBuzz
+[![Actions Status](https://github.com/carloskvasir/FizzBuzz-Elixir/workflows/Elixir%20Test/badge.svg)](https://github.com/carloskvair/FizzBuzz-Elixir/actions)
 
 ## Programa que fiz para aprender Elixir
 
@@ -11,5 +12,6 @@ Ler lista de números, substituir os múltiplos de 3 por Fizz, os de 5 por Buzz 
  - [x] Trocar múltiplos 3 por Fizz
  - [x] Trocar múltiplos 5 por Buzz
  - [x] Testar com entrada valida e invalida
+ - [x] CI usando GitHub Actions
 
 Feito por Carlos Lima (Kvasir)
