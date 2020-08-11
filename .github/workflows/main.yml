@@ -15,12 +15,12 @@ on:
       - "**.exs"
       - "**.ex"
 
-  jobs:
-    run_tests:
-      runs-on: ubuntu-latest
-      steps:
-        # This is an action from github that checks out the code in the repo.
-        - uses: actions/checkout@v2
-        # Give it any name you like
-        - name: "run elixir tests"
-          uses: Adzz/elixir_run_tests_action@v2.0.0
+    jobs:
+      run_tests:
+        runs-on: ubuntu-latest
+        steps:
+          # This is an action from github that checks out the code in the repo.
+          - uses: actions/checkout@v2
+          # Give it any name you like
+          - name: "run elixir tests"
+            uses: Adzz/elixir_run_tests_action@v2.0.0
