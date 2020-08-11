@@ -28,7 +28,7 @@ defmodule FizzBuzz do
     |> evaluate_number()
   end
 
-  defp evaluate_number(number) when rem(number, 3 * 5) == 0, do: :fizzbuzz
+  defp evaluate_number(number) when rem(number, 3) == 0 and rem(number, 5) == 0, do: :fizzbuzz
   defp evaluate_number(number) when rem(number, 3) == 0, do: :fizz
   defp evaluate_number(number) when rem(number, 5) == 0, do: :buzz
   defp evaluate_number(number), do: number
